@@ -19,12 +19,38 @@ body {
     body .info-unit h3 {
       font-weight: 300; }
 
+.icon1{
+  width: 3.4em;
+  height: 3em;
+  color: orangered;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.icon1+p{
+  color: #FE3366;
+}
 /* -------------------------------------------------
  * 头部部分
  * ------------------------------------------------- */
 .header {
   display: none; }
 
+
+.top{
+    display: block;
+    position: fixed;
+    right: 50px;
+    bottom: 80px;
+    width: 50px;
+    height: 30px;
+    /*background: dodgerblue;*/
+}
+.top p{
+    text-align: center;
+    width: 100%;
+
+}
 /* -------------------------------------------------
  * 主体部分
  * ------------------------------------------------- */
