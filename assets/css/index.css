@@ -33,8 +33,137 @@ body {
 /* -------------------------------------------------
  * 头部部分
  * ------------------------------------------------- */
-.header {
-  display: none; }
+header {
+  position:fixed;
+  background: rgba(0,0,0,.4);
+  overflow:hidden;
+  display: block;
+  z-index:2;}
+.tubiao{
+display: inline;
+position:relative;
+left:-108px;
+top: 13px;
+} 
+.header *{
+  display:block;
+}
+ nav{
+    position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:6;
+  background: #ADD8E6;
+  
+  height:50px;
+  z-index:2;
+ 
+}
+.btn {
+  
+  margin: 0px;
+  padding: 1.5px;
+  transition: 0.7s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 8px #FFA07A;
+  border-radius: 0px;
+ }
+ /* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right,rgba(350, 290, 26, 1), rgba(253, 152, 143, .5), rgba(255, 115, 125,.8));
+}
+
+}
+.clear_fix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul{
+  overflow: hidden;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    float: right;
+    margin-right:35px;
+    height: inherit;
+}
+nav ul li a {
+    line-height:40px;
+    color: #666;
+        font-weight: 550
+}
+nav ul li.logo{
+    float: left;
+    margin-left:60px;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+.logo{
+    font-size: 25px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+.logo a{
+    color: #000;
+    
+}
+.active{
+    position: relative;
+ }
+.active span{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-image: linear-gradient(to left,rgba(255, 115, 125,1), rgba(250, 150, 178, 1));
+}
+.mask{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,1);
+    
+}
+#silder {
+    /*display: none;*/
+    position: fixed;
+    right: -300px;
+    top:0;
+    bottom: 0;
+    width: 300px;
+    background: #333;
+    padding: 20px 0;
+    transition:.2s;
+    z-index:100;
+}
+#silder ul a {
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+}
+#silder ul a:hover{
+    background: #666;
+}
 
 
 .top{
