@@ -244,8 +244,8 @@ nav ul li a:hover {
         -webkit-animation-delay: 0.8s; }
       .container .side .me .portrait img {
         display: none;
-        width: 8rem;
-        height: 8rem;
+        width: 100%;
+        height: auto;
         border-radius: 50%; }
   .container .side .info-unit ul li label {
     display: inline-block;
@@ -257,9 +257,9 @@ nav ul li a:hover {
 .container .main {
   position: relative;
   margin-left: 22rem;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 5px 20px #bbb;
+  background: #FFE4C4;
+  border-radius: 36px;
+  box-shadow: 0 5px 20px #DEB887;
   box-sizing: border-box;
   padding: 1rem; }
   .container .main .info-unit ul {
