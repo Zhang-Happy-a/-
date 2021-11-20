@@ -195,10 +195,11 @@ nav ul li a:hover {
   position: absolute;
   width: 20rem;
   background: #FFE4C4;
-  border-radius: 36px;
+  border-radius: 30px;
   box-shadow: 0 5px 20px  #DEB887;
   box-sizing: border-box;
-  padding: 1rem; }
+  padding: 1rem;
+  padding-top: 1rem; }
   .container .side .me {
     text-align: center;
     margin-bottom: 2rem;}
@@ -266,10 +267,11 @@ nav ul li a:hover {
   position: relative;
   margin-left: 22rem;
   background: #FFE4C4;
-  border-radius: 36px;
+  border-radius: 30px;
   box-shadow: 0 5px 20px #DEB887;
   box-sizing: border-box;
-  padding: 1rem; }
+  padding: 1rem;
+  padding-top: 1rem; }
   .container main .info-unit ul {
     box-sizing: border-box;
     padding-left: 1.2rem;
@@ -331,7 +333,7 @@ aside {
     border-radius: 19px 0 0 10px;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-    background: #1abc9c; }
+    background: #F08080; }
     aside ul li a {
       display: inline-block;
       width: 80px;
@@ -350,13 +352,13 @@ progress::-webkit-progress-bar {
   background-color: #e0eaf0; }
 
 progress::-webkit-progress-value {
-  background-color: #1abc9c; }
+  background-color: #F08080; }
 
 progress::-moz-progress-bar {
   background-color: #e0eaf0; }
 
 progress::-moz-progress-value {
-  background-color: #708d9b; }
+  background-color: #F08080; }
 
 .progress-list {
   line-height: 2; }
