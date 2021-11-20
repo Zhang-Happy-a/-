@@ -1,0 +1,55 @@
+/** {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+}*/
+
+
+
+/*//鼠标悬停css*/
+figure h2 {
+    color: #222;
+    font-size: 100px;
+    }
+
+/*h2 a {
+     text-decoration: none;
+     color: white;
+     }
+*/
+figure h2 span {
+         transition: 0.5s;
+        }
+
+figure h2:hover span:nth-child(1) {
+        margin-right: 10px;
+        }
+
+figure h2:hover span:nth-child(2) {
+        margin-left: 30px;
+        }
+
+figure h2 span:nth-child(1)::after {
+        opacity: 0;
+        transition: 2s;
+        }
+
+figure h2:hover span:nth-child(1)::after {
+        content: "'";
+        opacity: 1;
+        }
+
+figure h2:hover span {
+        color: #CD5C5C;
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff;
+        }
