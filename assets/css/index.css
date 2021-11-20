@@ -183,6 +183,14 @@ nav ul li a:hover {
 /* -------------------------------------------------
  * 主体部分
  * ------------------------------------------------- */
+ .name{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: KaiTi;
+    }
+.info-job{
+        font-size: 1.2em;
+      }
 .container .side {
   position: absolute;
   width: 20rem;
